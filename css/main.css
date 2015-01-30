@@ -79,13 +79,24 @@ figure {
 img {
   width: 100%;
 }
-dd {
+
+dl {
   text-align: left;
-  line-height: 2;
+}
+
+data {
+  text-align: left;
 }
 
 dt {
   font-weight:bold;
+  text-align: left;
+}
+
+dd {
+  text-align: left;
+  line-height: 2 ;
+  margin: 0;
 }
 
 body {
@@ -102,8 +113,8 @@ a:hover {
 
 cite {
   font-size: 10px;
-  text-align: right;
-  line-height: 3;
+  text-align: center;
+  line-height: 5;
   color: #b88216
 }
 
