@@ -81,6 +81,7 @@ img {
 }
 dd {
   text-align: left;
+  line-height: 2;
 }
 
 dt {
@@ -99,22 +100,27 @@ a:hover {
   color:white;
 }
 
-footer {
+cite {
   font-size: 10px;
   text-align: right;
   line-height: 3;
   color: #b88216
 }
 
+footer {
+  background-color: #b59b0c;
+  padding: 0.1em 0.5em 0.5em 0.5em;
+  text-align: left;
+}
+
 h3 {
     font-family: "Hammersmith One";
     line-height:1.5;
     color: #fff;
-    background-color: #b59b0c;
     padding: 0;
 }
 
 .circle {
-  list-style-type:disc;
+  list-style-type: circle;
   background-color: #b59b0c;
 }
